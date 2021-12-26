@@ -1,0 +1,29 @@
+{
+  "name": "r-ov_static_data_service",
+  "version": "1.0.0",
+  "description": "The static data service (GTFS, NETEX, CHB, KV1) of R-OV",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-OV-NL/StaticDataService.git"
+  },
+  "author": "Tristan van Triest",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/R-OV-NL/StaticDataService/issues"
+  },
+  "homepage": "https://github.com/R-OV-NL/StaticDataService#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.15",
+    "pg": "^8.7.1",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/knex": "^0.16.1",
+    "@types/node": "^17.0.5"
+  }
+}
