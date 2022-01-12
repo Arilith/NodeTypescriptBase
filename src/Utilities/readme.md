@@ -1,0 +1,1 @@
+A place to store all utilities, such as constants or enums.
