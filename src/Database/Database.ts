@@ -1,8 +1,6 @@
 import knex from "knex";
 
-//Create a globally accessible postgres database instance with sequelizer
-export namespace Database {
-    export const database = knex({
+   export const Knex = knex({
         client: "pg",
         connection: {
             host: process.env.DB_HOST,
@@ -13,8 +11,4 @@ export namespace Database {
         }
     })
 
-    //Migrate
-    
-
-}
 

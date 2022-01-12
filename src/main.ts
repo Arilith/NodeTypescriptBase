@@ -1,10 +1,9 @@
-import { config } from 'dotenv'
-import { Database } from './Database/Database';
+require('dotenv').config();
+
+import { Knex } from './Database/Database';
 
 class Main {
     constructor() {
-      //Initialize dotenv
-      config();
 
     }
 }
